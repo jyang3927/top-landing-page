@@ -1,0 +1,144 @@
+
+body {
+    display: flex; 
+    flex-direction: column;
+    margin: 0; 
+}
+
+header {
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.main {
+    background-color: white;
+}
+.section {
+    display: flex; 
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937; 
+    background-color: #E5E7EB;
+    font-weight: light;
+    padding: 100px 250px; 
+}
+
+span {
+    font-weight: bold;
+    color: black; 
+    font-size: 20px;
+    font-style: normal;
+    padding-left: 500px; 
+}
+
+nav {
+    margin-left: auto; 
+    padding: 5px; 
+    margin-right: 100px; 
+}
+
+a {
+    text-decoration: none; 
+    margin: 0 15px; 
+}
+
+h1 {
+    font-size: 48px; 
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+h4 {
+    padding-left: 100px;
+    font-size: 24px;
+    color: #F9FAF8; 
+    margin: 5px; 
+    width: auto; 
+}
+
+h2 {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.subtext {
+    margin: 5px;
+}
+
+.intro {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-right: auto;
+    margin-left: 100px; 
+}
+
+button {
+    width: 75px; 
+    height: 25px; 
+    margin-top: 5px;
+    background-color: #3882F6;
+    border: 0; 
+    color: white; 
+    border-radius: 4px;
+}
+
+.container {
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 75px; 
+}
+/* color */ 
+.dark-background {
+    background-color: #1F2937;
+}
+
+a, 
+.gray {
+    color: #E5E7EB; 
+    font-size: 18px;
+}
+/* images */ 
+
+.whitebox {
+    height: 75px; 
+    width: 75px;  
+}
+
+img.intro {
+    width: auto; 
+    height: auto; 
+    display: flex; 
+    flex-direction: row;
+    margin: 5px 75px; 
+}
+
+.bluebox{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.info-section{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 25px; 
+}
+
+.info-section p {
+    width: 75px; 
+    font-size: small;
+}
